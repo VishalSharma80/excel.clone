@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    font-size: 14;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    Border:2px solid red;
+    
+    
+}
+
+.title-bar{
+    height: 5vh;
+    background-color: #107c41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.Menu-bar{
+    height: 5vh;
+    background-color: #107c41;
+    display: flex;
+}
+
+.menu-items{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 18;
+    display: flex;
+    align-items: center;
+}
+.menu-items.selected {
+    background-color: whitesmoke;
+    color: #107c41;
+}
+
+.menu-items:hover{
+
+background: #11703c;
+cursor: pointer;
+
+}
+
+.menu-items.selected:hover{
+    background-color: whitesmoke;
+    cursor: default;
+
+}
+
+.menu-bar-icon{
+    height: 6vh;
+    background-color: rgba(165, 153, 142, 0.695);
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.menu-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60%;
+    display: flex;
+    align-items:center ;
+
+}
+
+.menu-icon:hover {
+    background-color: rgb(141, 136, 136);
+    cursor: pointer;
+}
+.font-family-selector{
+    width: 150px;
+
+}
+
+.selector {
+    height: 25px;
+    font-size: 16px;   
+   
+}
+
+.Formula-bar{
+height: 6vh;
+}
+
+.Data-container{
+    height: 74vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-all{
+   width: 30px;
+   height:30px; 
+   border:1px solid lightgrey;
+}
+
+.column-name-container{
+    width: calc(99.58vw - 30px);  
+    height: 30px;
+    border:1px solid lightgrey;
+    display: flex;
+}
+
+.Row-name-container{
+    width: 30px;
+    height:calc(74vh - 30px); 
+    border:1px solid lightgrey;
+}
+
+.Input-cell-container{
+    width: calc(99.58vw - 30px); 
+    height:calc(74vh - 30px); 
+    border: 1px solid lightgrey;
+}
+.Sheet-bar{
+    height: 4vh;
+    display:flex;
+    
+}
+
+.icons-left-scroll, .icons-right-scroll{
+font-size: 30px;
+}
+
+.icons-left-scroll:hover, .icons-right-scroll:hover{
+    background-color: rgb(143, 180, 212);
+    cursor:pointer;
+}
+
+.scroller{
+    width:60px;
+}
+
+.icons-add{
+    color: green;
+    width:  40px;
+}
+
+.icons-add:hover{
+   cursor: pointer;
+   transform: scale(1.2); 
+}
+.sheet-tab-container{
+    border:1px solid rgb(203, 203, 43);
+    /* width: calc(100vw -110px); */
+width: 100%;
+}
+.sheet-tab{
+    border-bottom: 4px solid green;
+    padding-left:10px;
+    padding-right:10px;
+display:flex;
+width :70px;
+align-items:center;
+justify-content: center;
+font-weight: 600;
+}
+
+.sheet-tab:hover{
+    cursor: default;
+}
+
+.column-name{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+    font-weight: 600;
+}
+
+.row-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+.row{
+    display: flex;
+
+}
+.r-input-cell{
+    width: 100px;
+    height: 25px;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
